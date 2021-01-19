@@ -1,0 +1,42 @@
+[
+  {
+    "id": "hel",
+    "name": "hello world",
+    "cost": 70
+  },
+  {
+    "id": "hel",
+    "name": "hello",
+    "cost": 10
+  },
+  {
+    "id": "hel",
+    "name": "helm",
+    "cost": 200
+  },
+  {
+    "id": "hel",
+    "name": "hello my world",
+    "cost": 1
+  },
+  {
+    "id": "BMSTU",
+    "name": "Pretty university",
+    "cost": 50
+  },
+  {
+    "id": "BMSTU",
+    "name": "Funny university",
+    "cost": 40
+  },
+  {
+    "id": "BMSTU",
+    "name": "Good university",
+    "cost": 30
+  },
+  {
+    "id": "BMSTU",
+    "name": "Best university",
+    "cost": 10
+  }
+]
