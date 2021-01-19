@@ -1,4 +1,3 @@
-// Copyright 2020 Your Name <your_email>
 
 #include <boost/asio/ip/tcp.hpp>
 #include <boost/beast/core.hpp>

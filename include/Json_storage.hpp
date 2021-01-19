@@ -1,4 +1,3 @@
-// Copyright 2020 Your Name <your_email>
 
 #ifndef INCLUDE_JSON_STORAGE_HPP_
 #define INCLUDE_JSON_STORAGE_HPP_
