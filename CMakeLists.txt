@@ -20,7 +20,7 @@ HunterGate(
 
 
 project(suggestion)
-string(APPEND CMAKE_CXX_FLAGS " -pedantic -Werror -Wall -Wextra")
+#string(APPEND CMAKE_CXX_FLAGS " -pedantic -Werror -Wall -Wextra")
 string(APPEND CMAKE_CXX_FLAGS " -Wno-unused-command-line-argument")
 string(APPEND CMAKE_CXX_FLAGS " -Wshadow -Wnon-virtual-dtor")
 
@@ -37,7 +37,7 @@ find_package(nlohmann_json CONFIG REQUIRED)
 add_executable(tests
         ${CMAKE_CURRENT_SOURCE_DIR}/sources/Json_storage.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/sources/Suggestions_collection.cpp
-        #${CMAKE_CURRENT_SOURCE_DIR}/sources/source.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/sources/source.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp
         )
 
