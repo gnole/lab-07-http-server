@@ -55,7 +55,6 @@ void handle_request(http::request<Body, http::basic_fields<Allocator>>&& req,
     return res;
   };
 
-
   if (req.method() == http::verb::get) {
     return send(bad_request("Hello!"));
   }
