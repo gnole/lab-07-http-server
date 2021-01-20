@@ -31,7 +31,6 @@ template <class Body, class Allocator, class Send>
 void handle_request(http::request<Body, http::basic_fields<Allocator>>&& req,
                     Send&& send, const std::shared_ptr<std::timed_mutex>& mutex,
                     const std::shared_ptr<Suggestions_collection>& collection) {
-
   auto const bad_request = [&req](beast::string_view why) {
     http::response<http::string_body> res{http::status::bad_request,
                                           req.version()};
@@ -169,7 +168,6 @@ void suggestion_updater(
   }
 }
 int Run_server(int argc, char* argv[]) {
-
   std::shared_ptr<std::timed_mutex> mutex =
       std::make_shared<std::timed_mutex>();
   std::shared_ptr<Json_storage> storage = std::make_shared<Json_storage>(
