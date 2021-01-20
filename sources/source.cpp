@@ -1,4 +1,4 @@
-
+//"Copyright [year] <Copyright Owner>"
 #include <boost/asio/ip/tcp.hpp>
 #include <boost/beast/core.hpp>
 #include <boost/beast/http.hpp>

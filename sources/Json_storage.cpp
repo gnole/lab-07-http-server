@@ -1,4 +1,4 @@
-
+//"Copyright [year] <Copyright Owner>"
 #include <exception>
 #include <fstream>
 #include <iostream>

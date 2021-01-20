@@ -1,4 +1,4 @@
-
+//"Copyright [year] <Copyright Owner>"
 #ifndef INCLUDE_JSON_STORAGE_HPP_
 #define INCLUDE_JSON_STORAGE_HPP_
 

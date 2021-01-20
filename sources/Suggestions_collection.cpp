@@ -1,4 +1,4 @@
-
+//"Copyright [year] <Copyright Owner>"
 #include "Suggestions_collection.hpp"
 
 #include <algorithm>

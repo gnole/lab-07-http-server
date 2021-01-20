@@ -1,3 +1,4 @@
+//"Copyright [year] <Copyright Owner>"
 
 #ifndef INCLUDE_SUGGESTIONS_COLLECTION_HPP_
 #define INCLUDE_SUGGESTIONS_COLLECTION_HPP_
